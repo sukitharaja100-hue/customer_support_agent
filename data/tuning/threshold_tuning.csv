@@ -1,0 +1,17 @@
+tuning_id,cust_text,true_intent,should_escalate,label_reason
+t001,my battery is dropping quickly and the phone shuts down,battery_power,False,high confidence + common issue
+t002,apple id says disabled and i cannot sign in,account_access,True,account security
+t003,i was charged twice for the same app,app_store_billing,False,billing can auto only when confidence/retrieval pass
+t004,someone used my card for an apple purchase,app_store_billing,True,unauthorized charge safety term
+t005,my iphone screen is cracked after a fall,device_damage_repair,False,repair issue
+t006,ios update made messages crash,software_bug_update,False,software bug
+t007,my macbook delivery is two days late,order_shipping,False,shipping
+t008,apple support was amazing today,general_praise_or_vent,False,non-actionable
+t009,can this old charger work with the new phone,other_uncategorised,True,ambiguous/low confidence may escalate
+t010,i will sue apple over this refund,app_store_billing,True,legal term
+t011,my airpods arrived but the wrong color was shipped,order_shipping,False,shipping
+t012,my phone will not turn on after charging all night,battery_power,False,power issue
+t013,i hate this company and want help with my subscription charge,app_store_billing,True,negative billing
+t014,2fa code never arrives for my icloud account,account_access,True,account security
+t015,safari freezes since i installed the update,software_bug_update,False,software bug
+t016,i need to book a repair for a damaged macbook,device_damage_repair,False,repair issue

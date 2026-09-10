@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Generated artifacts -- reproducible via `make data` / `make eval`
+data/interim/*.parquet
+data/interim/*.joblib
+reports/metrics.json
+reports/baseline_metrics.json
+reports/drafted_replies.csv
+reports/judge_scores.csv
+reports/figures/*.png
+
+# Full Kaggle CSV is too large to commit -- see README "Scaling to the full dataset"
+data/raw/twcs.csv

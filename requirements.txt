@@ -1,0 +1,13 @@
+pandas
+duckdb
+pyarrow
+scikit-learn
+scipy
+matplotlib
+joblib
+ftfy
+emoji
+python-dotenv
+streamlit
+groq
+pytest
